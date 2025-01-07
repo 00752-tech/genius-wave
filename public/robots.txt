@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Prevent duplicate content indexing
+Disallow: /*?*
+
+# Allow main content directories
+Allow: /about
+Allow: /privacy
+Allow: /terms
+Allow: /disclaimer
+
+# Sitemap
+Sitemap: https://trygeniuswave.online/sitemap.xml
+
+# Crawl-delay for specific bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
