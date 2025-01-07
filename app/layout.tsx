@@ -51,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="icon" href="/favicon.svg" sizes="32x32" />
         <meta name="google-site-verification" content="enWa4NkA-yZu96RBhkFzXKqY3WcIv3ZxPJOaXKSu_ZQ" />
         <Script id="schema-product" type="application/ld+json">
           {`
