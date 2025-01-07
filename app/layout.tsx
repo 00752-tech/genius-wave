@@ -69,7 +69,7 @@ export default function RootLayout({
                 "url": "https://i.ibb.co/CJGt7Mz/genius-wave-product-image.jpg",
                 "width": 1200,
                 "height": 800
-              }
+              },
               "brand": {
                 "@type": "Brand",
                 "name": "Genius Wave"
