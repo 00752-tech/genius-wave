@@ -6,48 +6,75 @@
   .animate-fade-in {
     animation: fadeIn 1s ease-in-out;
   }
-  
+
   .animate-fade-in-delay {
     animation: fadeIn 1s ease-in-out 0.5s;
   }
-  
+
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }
-  
+
   .animate-slide-up {
     animation: slideUp 1s ease-in-out;
   }
-  
+
   .animate-gradient {
     background-size: 200% 200%;
     animation: gradientShift 5s ease infinite;
   }
-  
+
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-  
+
   @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
   }
-  
+
   @keyframes wave {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
   }
-  
+
   @keyframes slideUp {
-    from { opacity: 0; transform: translateY(50px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-  
+
   @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 }
 
@@ -64,13 +91,12 @@ body {
 }
 
 .custom-cursor {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background-color: rgba(59, 130, 246, 0.5);
-            position: fixed;
-            pointer-events: none;
-            z-index: 9999;
-            transition: transform 0.15s ease-out;
-          }
-
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(59, 130, 246, 0.5);
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.15s ease-out;
+}
