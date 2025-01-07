@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "issue/product-schema",
+    "issue/style-not-working",
+    "main",
+    "origin",
+    "style-issue"
+  ],
+  "parent": {
+    "issue/product-schema": "main",
+    "issue/style-not-working": "main",
+    "main": null,
+    "origin": "main",
+    "style-issue": "main"
+  },
+  "order": [
+    "main",
+    "issue/product-schema",
+    "issue/style-not-working",
+    "origin",
+    "style-issue"
+  ]
+}
