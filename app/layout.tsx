@@ -66,7 +66,7 @@ export default function RootLayout({
               "description": "Neuroscience-backed audio technology for cognitive enhancement",
               "image": {
                 "@type": "ImageObject",
-                "url": "https://gogeniuswave.com/images/s16img.png",
+                "url": "https://i.ibb.co/CJGt7Mz/genius-wave-product-image.jpg",
                 "width": 1200,
                 "height": 800
               }
